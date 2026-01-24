@@ -15,14 +15,12 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
 }
 
 .container {
     padding: 96px 0;
     display: flex;
     width: 100%;
-    max-width: 1200px;
     margin: auto 0;
 }
 
@@ -160,6 +158,7 @@ h1 {
 
 #features {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container__features {
@@ -170,35 +169,35 @@ h1 {
 }
 
 .feature__img--wrapper {
-    
-}
-
-.feature__row {
-
-}
-
-
-.row__narrow {
+    padding: 20px;
 }
 
 .features {
+    display: flex;
     margin-top: 64px;
+    flex-wrap: wrap;
 }
 
 .feature {
+  width: calc(100% / 3);  
+  padding: 16px 12px;
 }
 
-.section__tag {
+.section__tag--features{
     text-align: center;
-    font-size: 16px;
+    font-size: 24px;
     color: #6030b1;
     margin-bottom: 24px;
+    margin-top: 124px;
 }
 
 .section__title {
     text-align: center;
     font-size: 48px;
-    margin-bottom: 24px;
+}
+
+.row__narrow.row {
+   
 }
 
 .section__para {
@@ -207,6 +206,129 @@ h1 {
     font-weight: bold;
     line-height: 1.5;
     opacity: 50%;
+    margin-top: 16px;
+    line-height: 2;
+    
+}
+
+.feature__row {
+    padding: 32px 24px;
+    display: flex;
+}
+
+.feature__text {
+  margin: 8px 0 0 16px;
+}
+
+h2 {
+    font-size: 24px;
+    mar
+}
+
+.feature__para {
+    font-size: 16px;
+    opacity: 50%;
+    margin: 16px 0 0;
+    line-height: 2;
 }
 
 
+/* QUALITY */
+
+.quality__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.quality__row {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    ;
+}
+
+.quality__description {
+    width: 50%;
+}
+
+.quality__img--wrapper {
+    width: 50%;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.quality__img {
+    width: 600px;
+    margin-top: 36px;
+}
+
+.section__tag {
+    margin-top: 12px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section__title--quality {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.section__para--quality {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    opacity: 50%;
+    margin-top: 16px;
+    line-height: 2;
+    padding-right: 100px;
+}
+
+.btn {
+    background-color: #6030b1;
+    color: white;
+    margin: 8px;
+    padding: 14px 28px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+
+/* STEPS */
+
+.container_steps {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.row__steps {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+    
+}
+
+.steps__img--wrapper {
+    width: 50%;
+}
+
+.steps__img { 
+    
+}
+
+.steps__description {
+    
+}
